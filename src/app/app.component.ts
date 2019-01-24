@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'pipes';
   nombre:string = 'Alexander';
+  nombre2:string = 'AleXAnDer PIñeRo';
+
   arreglo:number[] = [1,2,3,4,5,6,7,8,9,10];
   PI:number = Math.PI;
   n:number = 0.234;
@@ -30,4 +32,8 @@ export class AppComponent {
   });
 
   fecha = new Date();
+
+  video:string = 'ioq_t_GHBtg';
+
+  activar:boolean = true;
 }
